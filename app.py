@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 st.set_page_config(page_title="Olist Analytics", page_icon="🛒", layout="wide")
 st.title("🛒 Olist E-Commerce Analytics Dashboard")
-st.markdown("**Thrive Data Science Capstone 2026 — Group [Your Number]**")
+st.markdown("**Thrive Data Science Capstone 2026 — Group 25 **")
 
 # Connect to your local database
 con = duckdb.connect("project.duckdb")
@@ -95,4 +95,4 @@ except Exception as e:
     st.error(f"Could not load Top Categories. Error: {e}")
 
 st.markdown("---")
-st.caption("Built with DuckDB · Python · Streamlit | Thrive Capstone 2026")
+st.caption("Built with DuckDB · Python · Streamlit | Group 25")
